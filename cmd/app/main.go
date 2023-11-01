@@ -1,7 +1,8 @@
 package main
 
-import "log"
+import "github.com/thaddeuscleo/the-minimal-go-stack/internal/app"
 
 func main() {
-	log.Println("hello")
+	app := app.New()
+	app.Run()
 }
